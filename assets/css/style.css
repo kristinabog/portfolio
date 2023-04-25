@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&family=Quicksand:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Quicksand', 'Sans-serif';
+}
+.container-sm {
+    width: 1200px;
+    padding: 0 1rem 0 1rem;
+}
+
+.nav-item {
+    font-weight: 600;
+}
