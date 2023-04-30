@@ -3,11 +3,53 @@
 body {
     font-family: 'Quicksand', 'Sans-serif';
 }
+
+/*  --------------------------------------Navbar */
+
 .container-sm {
     width: 1200px;
     padding: 0 1rem 0 1rem;
 }
 
+.navbar {
+    background-color: #2b241f;  
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fafaf9;
+}
+
 .nav-item {
     font-weight: 600;
 }
+
+.intro-name, .navbar-brand {
+    color: #ad7006;
+}
+
+/*  --------------------------------------Intro */
+
+.intro {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #fafaf9;
+}
+
+.intro-container {
+    width: 1200px;
+    padding: 100px 25px;
+    margin: 0 auto;
+}
+
+.intro-name {
+    font-size: 3.5rem;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+  
+  
+  
+  
+  
