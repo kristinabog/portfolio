@@ -64,7 +64,7 @@ body {
 
 .intro-ul {
     display: flex;
-    padding-left: 0.4rem;
+    padding-left: 0.05rem;
 }
 
 #web-dev-ul {
@@ -73,6 +73,11 @@ body {
 
 ul.intro-ul li {
     margin-right: 1.5rem;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
 }
 
   
