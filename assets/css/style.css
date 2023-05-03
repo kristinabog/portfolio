@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: #fafaf9;
 }
 
 /*  --------------------------------------Navbar */
@@ -31,13 +32,40 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 
+.intro {
+    background-image: url('../img/background-img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240 238 238 / 40%);
+    z-index: -1;
+  }
+
+.nav-resume-btn {
+    background-color: #ad7006;
+    color: #000;
+    font-weight: 600;
+    border: 1px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
 /*  --------------------------------------Intro */
 
 .intro {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #fafaf9;
+    position: relative;
 }
 
 .intro-container {
@@ -78,7 +106,21 @@ ul.intro-ul li {
 button {
     text-transform: uppercase;
     padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+    font-weight: 600;
 }
+
+.resume-btn {
+    color: #ad7006;
+    background-color: #2b241f;
+}
+
+.about-me-btn {
+    background-color: transparent;
+    /* border: none; */
+    color: #2b241f;
+}
+
+
 
   
   
