@@ -46,8 +46,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(240 238 238 / 40%);
-    z-index: -1;
+    background-color: rgb(255 255 255 / 40%);
+    z-index: 1;
   }
 
 .nav-resume-btn {
@@ -72,6 +72,7 @@ body {
     width: 1200px;
     padding: 1rem 30rem 1rem 5rem;
     margin: 0 auto;
+    z-index: 2;
 }
 
 .intro-name {
