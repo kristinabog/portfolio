@@ -1,6 +1,9 @@
-const slideButton = document.getElementById('about-me-btn');
-const targetDiv = document.getElementById('about');
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.getElementById('about-me-btn');
 
-slideButton.addEventListener('click', () => {
-  targetDiv.classList.add('slide-in');
-});
+    // Scrolling down to the 'about me' section when clicked on about-me-btn
+    button.addEventListener('click', () => {
+      const target = document.querySelector(button.getAttribute('href'));
+      target.scrollIntoView({ behavior: 'smooth' });
+    });
+    });
