@@ -130,10 +130,42 @@ button {
     background-color: #2b241f;
 }
 
-.about-me-btn {
+#about-me-btn {
     background-color: transparent;
     /* border: none; */
     color: #2b241f;
+}
+
+#main {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+  
+.slide-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*  --------------------------------------About */
+
+.about-section {
+    display: flex;
+    align-items: center;
+    margin: 4rem;
+}
+
+.about-section>* {
+    flex: 1 1;
+}
+
+.about-title {
+    text-transform: uppercase;
+}
+
+.about-details {
+    margin: 0 4rem 4rem 4rem;
+    padding: 0 4rem 4rem 4rem;  
 }
 
 
