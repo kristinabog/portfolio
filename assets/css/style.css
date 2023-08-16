@@ -140,12 +140,22 @@ button {
 
 .about-section {
     display: flex;
-    align-items: center;
     margin: 4rem;
 }
 
 .about-section>* {
-    flex: 1 1;
+    flex: 1;
+}
+
+.about-img {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-img img {
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
 }
 
 .about-title {
@@ -154,7 +164,9 @@ button {
 
 .about-details {
     margin: 0 4rem 4rem 4rem;
-    padding: 0 4rem 4rem 4rem;  
+    padding: 0 4rem 4rem 4rem;
+    font-size: 15px;
+    text-align: justify;
 }
 
 
