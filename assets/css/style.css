@@ -99,7 +99,7 @@ body {
 
 .intro-text {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .intro-text, .intro-text2 {
@@ -153,8 +153,8 @@ button {
 }
 
 .about-img img {
-    max-height: 100%;
-    object-fit: cover;
+    /* max-height: 100%;
+    object-fit: cover; */
     border-radius: 5%;
 }
 
@@ -168,6 +168,84 @@ button {
     font-size: 15px;
     text-align: justify;
 }
+
+/* --------------------------- Media Queries */
+@media (max-width: 1200px) {
+    /* Adjust the container width for smaller screens */
+    .container-sm {
+      width: 100%;
+      padding: 0 1rem;
+    }
+    
+    /* Adjust padding and font size for intro */
+    .intro-container {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .intro-name {
+      font-size: 2.5rem;
+    }
+
+    .intro-container,
+    .intro-text,
+    .intro-text2 {
+      margin: 0;
+    }
+
+    ul.intro-ul {
+        justify-content: center;
+        margin-left: 1rem;
+    }
+
+    ul.intro-ul li {
+      margin-right: 1.5rem;
+    }
+    
+    /* Adjust margin for about section */
+    .about-section {
+      margin: 2rem;
+    }
+    .about-details,
+    .about-img {
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+
+    .intro-name {
+      font-size: 2rem;
+    }
+
+    .about-section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about-section>* {
+      width: 100%;
+    }
+
+    .about-img {
+      align-items: center;
+    }
+
+    .about-title {
+      text-align: center;
+    }
+
+    .about-details {
+      margin: 0;
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    .about-img {
+        text-align: center;
+        display: block;
+    }
+  }
 
 
 
