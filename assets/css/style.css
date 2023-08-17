@@ -144,13 +144,6 @@ button {
     margin: 4rem;
 }
 
-.skills-section {
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; 
-  text-align: left; 
-}
-
 .about-section>* {
     flex: 1;
 }
@@ -184,11 +177,14 @@ button {
 
 /* --------------------------- Skills */
 
-.skills-section {
+.section {
   font-size: 15px;
-    text-align: justify;
-    padding: 0 4rem 4rem 7.8rem;
-    margin: 0 4rem 4rem 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  text-align: left; 
+  padding: 0 4rem 4rem 7.8rem;
+  margin: 0 4rem 4rem 4rem;
 }
 
 .h5-title {
@@ -248,7 +244,7 @@ button {
       margin: 0;
     }
 
-    .skills-section {
+    .section {
       padding-left: 4rem;
       flex-direction: column;
       align-items: center;
