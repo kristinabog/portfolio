@@ -161,13 +161,18 @@ button {
 }
 
 .about-img img {
-    /* max-height: 100%;
-    object-fit: cover; */
     border-radius: 5%;
 }
 
-.h3-title {
+.h3-title,
+.h5-title {
     text-transform: uppercase;
+}
+
+.h3-title,
+.skill-div,
+.h5-title {
+  margin-bottom: 1.5rem;
 }
 
 .about-details {
@@ -177,11 +182,26 @@ button {
     margin: 0 4rem 4rem 4rem;
 }
 
+/* --------------------------- Skills */
+
 .skills-section {
   font-size: 15px;
     text-align: justify;
     padding: 0 4rem 4rem 7.8rem;
     margin: 0 4rem 4rem 4rem;
+}
+
+.h5-title {
+  color: #ad7006;
+}
+
+.skill-highlight {
+  background-color: #e7e7e2;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+  margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+  display: inline-block;
 }
 
 
@@ -227,7 +247,7 @@ button {
     .about-img {
       margin: 0;
     }
-  
+
     .skills-section {
       padding-left: 4rem;
       flex-direction: column;
@@ -273,8 +293,4 @@ button {
 
 
 
-  
-  
-  
-  
   
