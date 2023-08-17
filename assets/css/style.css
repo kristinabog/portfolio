@@ -138,9 +138,17 @@ button {
 
 /*  --------------------------------------About */
 
-.about-section {
+.about-section,
+.skills-section {
     display: flex;
     margin: 4rem;
+}
+
+.skills-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  text-align: left; 
 }
 
 .about-section>* {
@@ -158,16 +166,25 @@ button {
     border-radius: 5%;
 }
 
-.about-title {
+.h3-title {
     text-transform: uppercase;
 }
 
 .about-details {
-    margin: 0 4rem 4rem 4rem;
-    padding: 0 4rem 4rem 4rem;
     font-size: 15px;
     text-align: justify;
+    padding: 0 4rem 4rem 4rem;
+    margin: 0 4rem 4rem 4rem;
 }
+
+.skills-section {
+  font-size: 15px;
+    text-align: justify;
+    padding: 0 4rem 4rem 7.8rem;
+    margin: 0 4rem 4rem 4rem;
+}
+
+
 
 /* --------------------------- Media Queries */
 @media (max-width: 1200px) {
@@ -210,6 +227,13 @@ button {
     .about-img {
       margin: 0;
     }
+  
+    .skills-section {
+      padding-left: 4rem;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
   }
   
   @media (max-width: 768px) {
@@ -231,7 +255,7 @@ button {
       align-items: center;
     }
 
-    .about-title {
+    .h3-title {
       text-align: center;
     }
 
