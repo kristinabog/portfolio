@@ -200,6 +200,28 @@ button {
   display: inline-block;
 }
 
+/* --------------------------- Portfolio */
+
+.card {
+  max-width: 18rem;
+  height: 12rem;
+}
+
+#portfolio .tools {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+#portfolio .tools li {
+  margin: 0;
+  margin-right: 0.5rem;
+  list-style-type: none;
+}
+
 
 
 /* --------------------------- Media Queries */
