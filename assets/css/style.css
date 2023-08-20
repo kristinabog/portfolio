@@ -212,12 +212,16 @@ button {
 
 .card {
   max-width: 18rem;
-  height: 22rem;
+  height: 25rem;
 }
 
 .card-body {
   height: 14rem;
   background-color: #f4efe9;
+}
+
+#portfolio .tools {
+  margin-top: 1rem;
 }
 
 #portfolio .tools, 
@@ -228,11 +232,10 @@ button {
   display: flex;
   flex-wrap: wrap;
   font-size: 13px;
+  margin-top: 1rem;
 }
 
-#portfolio .tools li,
-#portfolio .links li {
-  margin: 0;
+#portfolio .tools li {
   margin-right: 0.5rem;
   list-style-type: none;
   color: #ad7006;
@@ -266,6 +269,18 @@ button {
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   z-index: 1;
+}
+
+.portfolio-btn {
+  background-color: #ad7006;
+    color: #000;
+    font-weight: 600;
+    border: 1px;
+    margin-right: 0.25rem;
+}
+
+.card-body p {
+  height: 3rem;
 }
 
 
@@ -319,13 +334,21 @@ button {
       text-align: center;
     }
 
-    #portfolio .tools {
+    #portfolio .tools,
+    #portfolio .links {
       justify-content: center;
       align-items: center;
     }
   }
   
   @media (max-width: 768px) {
+
+    .col {
+      display: flex;
+      flex-direction: column; /* If you want to center vertically on small screens */
+      align-items: center;
+      justify-content: center;
+    }
 
     .intro-name {
       font-size: 2rem;
