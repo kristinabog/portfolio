@@ -71,6 +71,16 @@ body {
   color:#f4efe9;
 }
 
+.navbar-toggler { 
+  background-color:#ad7006;
+}
+
+.navbar-toggler:focus {
+  background-color: #e7ba6b;
+  outline: none;
+  box-shadow: none;
+}
+
 /*  --------------------------------------Intro */
 
 .intro {
@@ -369,6 +379,10 @@ a {
     #portfolio .links {
       justify-content: center;
       align-items: center;
+    }
+
+    .nav-resume-btn {
+      margin: 0;
     }
   }
   
