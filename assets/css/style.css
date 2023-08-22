@@ -59,6 +59,18 @@ body {
     margin-top: 2px;
 }
 
+.nav-resume-btn:hover {
+  background-color: #e7ba6b;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #e7ba6b;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+  color:#f4efe9;
+}
+
 /*  --------------------------------------Intro */
 
 .intro {
@@ -134,10 +146,19 @@ button {
     background-color: #2b241f;
 }
 
+.resume-btn:hover {
+  background-color: transparent;
+  color: #2b241f;
+}
+
 #about-me-btn {
     background-color: transparent;
-    /* border: none; */
     color: #2b241f;
+}
+
+#about-me-btn:hover {
+  background-color: #2b241f;
+  color: #ad7006;
 }
 
 /*  --------------------------------------About */
@@ -278,6 +299,10 @@ button {
   font-weight: 600;
   border: 1px;
   margin-right: 0.25rem;
+}
+
+.portfolio-btn:hover {
+  background-color: #e7ba6b;
 }
 
 .card-body p {
