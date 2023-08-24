@@ -347,7 +347,14 @@ a {
 }
 
 .submit-btn {
-  max-width: 5rem;
+  width: 200px;
+  color: #ad7006;
+  background-color: #2b241f;
+}
+
+.submit-btn:hover {
+  background-color: transparent;
+  color: #2b241f;
 }
 
 .contact-col {
@@ -489,6 +496,10 @@ a {
       .about-img img {
         width: 150px;
       }
+
+      .submit-btn {
+        width: 100px;
+      }      
     }
   }
 
