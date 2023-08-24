@@ -152,7 +152,7 @@ button {
 }
 
 .resume-btn {
-    color: #ad7006;
+    color: #e7ba6b;
     background-color: #2b241f;
 }
 
@@ -168,7 +168,7 @@ button {
 
 #about-me-btn:hover {
   background-color: #2b241f;
-  color: #ad7006;
+  color: #e7ba6b;
 }
 
 /*  --------------------------------------About */
@@ -348,7 +348,7 @@ a {
 
 .submit-btn {
   width: 200px;
-  color: #ad7006;
+  color: #e7ba6b;
   background-color: #2b241f;
 }
 
@@ -376,6 +376,26 @@ a {
   font-size: 20px;
   color: #2b241f;
 }
+
+footer {
+  width: 100%;
+  position: relative;
+  background-color: #2b241f;
+  margin: 0 auto;
+  bottom: 0px;
+  padding: 12px;
+  color: #f4efe9;
+  font-size: 0.8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
 
 /* --------------------------- Media Queries */
 @media (max-width: 1200px) {
