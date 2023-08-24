@@ -81,7 +81,7 @@
         <div class="about-details">
           <h3 class="h3-title">About Me</h3>
           <p>
-            Hello and welcome to my portfolio! I am thrilled to present to you a glimpse
+            Hi and welcome to my portfolio! Here you can find a glimpse
             into my journey as an aspiring software developer. I started my coding bootcamp in 2020
             at the Code Institute and graduated with Merit in Dec 2021. I have been working as a
             Web consultant until recently, but driven by my ambitions, I'm now ready to take on my first role as a
@@ -290,14 +290,37 @@
       </div>
     </div>
     <div id="contact">
-      <div class="section">
-        <h3 class="h3-title">Contact Me</h3>
-        <form id="contact-form">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <textarea name="message" placeholder="Your Message" required></textarea>
-          <button type="submit">Submit</button>
-      </form>
+      <div class="contact-section row">
+        <div>
+          <h3 class="h3-title">Contact Me</h3>
+        </div>
+        <div class="col-md-6 contact-col">
+          <p class="contact-text">Thank you for visiting my portfolio. 
+            If you're interested in collaborating, discussing opportunities, or have any questions, 
+            please don't hesitate to drop me a line using the form. 
+            Your feedback and inquiries are highly valued.</p>
+          <ul class="social-icons">
+            <a href="https://www.linkedin.com/in/kristinabog/" target="_blank">
+              <li class="fab fa-linkedin social-icon"></li>
+            </a>
+            <a href="https://github.com/kristinabog" target="_blank">
+              <li class="fab fa-github social-icon"></li>
+            </a>
+          </ul>
+        </div>
+        <div class="col-md-6">
+            <form id="contact-form">
+              <div class="row">
+                  <input class="contact-input" type="text" name="name" placeholder="Your Name" required>
+                  <input class="contact-input" type="email" name="email" placeholder="Your Email" required>
+                  <textarea class="contact-message" name="message" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="row">
+                <button class="submit-btn" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>  
+        </div>
       </div>
     </div>
   </div>

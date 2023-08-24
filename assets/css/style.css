@@ -324,7 +324,49 @@ a {
   text-decoration: none; 
 }
 
+/* --------------------------- Contact */
 
+.contact-section {
+  font-size: 15px;
+  justify-content: center;
+  padding: 0 4rem 4rem 7.8rem;
+  margin: 0 4rem 4rem 4rem;
+  margin: 4rem;
+}
+
+.contact-input, 
+.contact-message {
+  margin-bottom: 1.5rem;
+  max-width: 28rem;
+}
+
+.contact-message {
+  height: 150px;
+}
+
+.submit-btn {
+  max-width: 5rem;
+}
+
+.contact-col {
+  padding-right: 7.5rem;
+}
+
+.social-icon {
+  margin-right: 2%;
+}
+
+.social-icon:hover {
+  color: #ad7006;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin-left: 2px;
+  font-size: 20px;
+  color: #2b241f;
+}
 
 /* --------------------------- Media Queries */
 @media (max-width: 1200px) {
@@ -368,11 +410,16 @@ a {
       margin: 0;
     }
 
-    .section {
+    .section,
+    .contact-section {
       padding-left: 4rem;
       flex-direction: column;
       align-items: center;
       text-align: center;
+    }
+
+    .contact-col {
+      padding-right: 0;
     }
 
     #portfolio .tools,
