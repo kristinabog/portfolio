@@ -190,6 +190,8 @@ button {
 
 .about-img img {
     border-radius: 5%;
+    width: 270px; 
+    height: auto;
 }
 
 .h3-title,
@@ -472,6 +474,21 @@ a {
     .about-img {
         text-align: center;
         display: block;
+    }
+
+    @media (max-width: 768px) { 
+      .section {
+        padding: 0;
+        margin: 0;
+      }
+
+      .contact-section {
+        padding: 0;
+      }
+
+      .about-img img {
+        width: 150px;
+      }
     }
   }
 
