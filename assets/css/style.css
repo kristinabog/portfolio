@@ -460,6 +460,10 @@ footer p {
     .nav-resume-btn {
       margin: 0;
     }
+
+    .intro-container {
+      padding: 1rem 2rem;
+    }
   }
   
   @media (max-width: 768px) {
@@ -503,7 +507,12 @@ footer p {
         display: block;
     }
 
-    @media (max-width: 768px) { 
+    .intro-container {
+      padding: 1rem;
+    }
+  }
+
+    @media (max-width: 510px) { 
       .section {
         padding: 0;
         margin: 0;
@@ -519,9 +528,13 @@ footer p {
 
       .submit-btn {
         width: 100px;
-      }      
+      }  
+      
+      #portfolio .col {
+        padding-right: 0!important;
+      }
     }
-  }
+  
 
 
 
