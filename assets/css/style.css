@@ -383,6 +383,12 @@ a {
   border-bottom: none;
 }
 
+#contact-modal .modal-body,
+#contact-modal .modal-footer {
+  border-bottom: none;
+  border-top: none;
+}
+
 #contact-modal .close {
   margin-left: auto;
   border: none;
