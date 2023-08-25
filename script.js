@@ -36,10 +36,25 @@ document.addEventListener("DOMContentLoaded", function() {
       emailjs.init(publicKey);
   
       emailjs.sendForm(serviceID, templateID, this)
-        .then(function() {
-          console.log('SUCCESS!');
-        }, function(error) {
-          console.log('FAILED...', error);
-        });
+      .then(function() {
+        showModal('Thank you for your message!', 'success');
+        console.log('SUCCESS!');
+      }, function(error) {
+        showModal('Something went wrong.. Try again', 'error');
+        console.log('FAILED...', error);
+      });
+      
     });
     });
+
+    function showModal(message, type) {
+      const modal = document.getElementById('contact-modal');
+      const modalText = document.getElementById('modal-text');
+    
+      modalText.textContent = message;
+
+      const bsModal = new bootstrap.Modal(modal);
+      bsModal.show();
+    }
+
+    

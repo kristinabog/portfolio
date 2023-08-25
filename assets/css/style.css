@@ -377,6 +377,21 @@ a {
   color: #2b241f;
 }
 
+#contact-modal .modal-header {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: none;
+}
+
+#contact-modal .close {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+}
+
+
+/* --------------------------- Footer */
+
 footer {
   width: 100%;
   position: relative;
