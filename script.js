@@ -57,4 +57,10 @@ document.addEventListener("DOMContentLoaded", function() {
       bsModal.show();
     }
 
+    $(document).ready(function() {
+      $('.close').click(function() {
+        $('#contact-modal').modal('hide'); 
+      });
+    });
+
     
