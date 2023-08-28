@@ -8,8 +8,8 @@ body {
 /*  --------------------------------------Navbar */
 
 .container-sm {
-    width: 1200px;
-    padding: 0 1rem 0 1rem;
+  padding: 0 1rem 0 1rem;
+  width: 100%;
 }
 
 .navbar {
@@ -91,7 +91,7 @@ body {
 }
 
 .intro-container {
-    width: 1200px;
+    width: 100%;
     padding: 1rem 30rem 1rem 5rem;
     margin: 0 auto;
     z-index: 2;
@@ -176,7 +176,6 @@ button {
 .about-section,
 .skills-section {
     display: flex;
-    margin: 4rem;
 }
 
 .about-section>* {
@@ -225,7 +224,6 @@ button {
   align-items: flex-start; 
   text-align: left; 
   padding: 0 4rem 4rem 7.8rem;
-  margin: 0 4rem 4rem 4rem;
 }
 
 .h5-title {
@@ -332,8 +330,11 @@ a {
   font-size: 15px;
   justify-content: center;
   padding: 0 4rem 4rem 7.8rem;
-  margin: 0 4rem 4rem 4rem;
-  margin: 4rem;
+}
+
+.contact-section,
+.about-section {
+  margin-top: 2rem;
 }
 
 .contact-input, 
@@ -420,13 +421,11 @@ footer p {
 
 /* --------------------------- Media Queries */
 @media (max-width: 1200px) {
-    /* Adjust the container width for smaller screens */
     .container-sm {
       width: 100%;
       padding: 0 1rem;
     }
-    
-    /* Adjust padding and font size for intro */
+
     .intro-container {
       padding: 1rem;
       text-align: center;
@@ -451,7 +450,6 @@ footer p {
       margin-right: 1.5rem;
     }
     
-    /* Adjust margin for about section */
     .about-section {
       margin: 2rem;
     }
@@ -481,17 +479,13 @@ footer p {
     .nav-resume-btn {
       margin: 0;
     }
-
-    .intro-container {
-      padding: 1rem 2rem;
-    }
   }
-  
+
   @media (max-width: 768px) {
 
     .col {
       display: flex;
-      flex-direction: column; /* If you want to center vertically on small screens */
+      flex-direction: column;
       align-items: center;
       justify-content: center;
     }
@@ -527,20 +521,12 @@ footer p {
         text-align: center;
         display: block;
     }
-
-    .intro-container {
-      padding: 1rem;
-    }
   }
 
-    @media (max-width: 510px) { 
+  @media (max-width: 510px) { 
       .section {
         padding: 0;
         margin: 0;
-      }
-
-      .contact-section {
-        padding: 0;
       }
 
       .about-img img {
@@ -552,9 +538,32 @@ footer p {
       }  
       
       #portfolio .col {
-        padding-right: 0!important;
+        padding: 0!important;
+      }
+
+      .card {
+        width: 14rem;
+        height: 24.5rem;
+      }
+
+      #skills {
+        padding: 1rem;
+      }
+
+      .intro-container {
+        width: 99%;
+      }
+
+      .container-sm {
+        width: 99%
       }
     }
+   
+    
+    
+    
+    
+    
   
 
 
