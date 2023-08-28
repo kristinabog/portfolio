@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
 
-    navLinks.forEach(link => {
-      link.addEventListener("click", function() {
+    document.addEventListener("click", function(event) {
+      if (!navbarToggler.contains(event.target) && !navbarCollapse.contains(event.target)) {
         if (navbarCollapse.classList.contains("show")) {
-          navbarCollapse.classList.remove("show");
+          navbarToggler.click();
         }
-      });
+      }
     });
 
     document.getElementById('contact-form').addEventListener('submit', function(event) {
