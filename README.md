@@ -30,3 +30,5 @@ You can view my portfolio on the following link:
 
 
 ## Credits
+
+[Background of intro](https://img.freepik.com/free-photo/gradient-earth-tone-background-soft-vintage-style_53876-125325.jpg?w=996&t=st=1693256397~exp=1693256997~hmac=16047fa4d992d9170ec78df0c6504943882ad2b5d95a5a9558fdef25c512ad8e)
