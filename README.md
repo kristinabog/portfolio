@@ -2,7 +2,7 @@
 
 You can view my portfolio on the following link:
 
-[Live Portfolio]()
+[Live Portfolio](https://kristinabog.github.io/portfolio/)
 
 ## Technologies Used
 
