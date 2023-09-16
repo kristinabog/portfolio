@@ -245,7 +245,7 @@ button {
   max-width: 18rem;
   height: 25.5rem;
   border: 2px solid #e0dedb;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 17px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-body {
@@ -364,6 +364,7 @@ a {
 
 .contact-col {
   padding-right: 7.5rem;
+  text-align: justify;
 }
 
 .social-icon {
@@ -380,6 +381,7 @@ a {
   margin-left: 2px;
   font-size: 20px;
   color: #2b241f;
+  text-align: center;
 }
 
 #contact-modal .modal-header {
@@ -471,7 +473,7 @@ footer p {
     }
 
     .contact-col {
-      padding-right: 0;
+      padding: 0;
     }
 
     #portfolio .tools,
@@ -518,12 +520,19 @@ footer p {
     .about-details {
       margin: 0;
       padding: 0 1rem;
-      text-align: center;
     }
 
     .about-img {
         text-align: center;
         display: block;
+    }
+
+    .h3-title {
+      margin-top: 4rem;
+    }
+
+    .card-body p {
+      margin-bottom: 2rem;
     }
   }
 
